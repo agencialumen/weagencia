@@ -1,0 +1,40 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#d946ef" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="800" fill="none" />
+  
+  <!-- Abstract shapes -->
+  <circle cx="400" cy="400" r="300" stroke="url(#grad1)" stroke-width="2" fill="none" />
+  <circle cx="400" cy="400" r="250" stroke="url(#grad1)" stroke-width="2" fill="none" />
+  <circle cx="400" cy="400" r="200" stroke="url(#grad1)" stroke-width="2" fill="none" />
+  
+  <!-- Connecting lines -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="url(#grad1)" stroke-width="1" />
+  <line x1="400" y1="100" x2="400" y2="700" stroke="url(#grad1)" stroke-width="1" />
+  
+  <!-- Diagonal lines -->
+  <line x1="100" y1="100" x2="700" y2="700" stroke="url(#grad1)" stroke-width="1" />
+  <line x1="700" y1="100" x2="100" y2="700" stroke="url(#grad1)" stroke-width="1" />
+  
+  <!-- Random dots -->
+  <g fill="#9333ea" opacity="0.5">
+    <circle cx="150" cy="150" r="5" />
+    <circle cx="250" cy="350" r="5" />
+    <circle cx="450" cy="250" r="5" />
+    <circle cx="650" cy="150" r="5" />
+    <circle cx="150" cy="650" r="5" />
+    <circle cx="350" cy="550" r="5" />
+    <circle cx="550" cy="650" r="5" />
+    <circle cx="650" cy="450" r="5" />
+  </g>
+  
+  <!-- Wave patterns -->
+  <path d="M100,300 C200,250 300,350 400,300 C500,250 600,350 700,300" stroke="url(#grad1)" stroke-width="2" fill="none" />
+  <path d="M100,500 C200,450 300,550 400,500 C500,450 600,550 700,500" stroke="url(#grad1)" stroke-width="2" fill="none" />
+</svg>
+

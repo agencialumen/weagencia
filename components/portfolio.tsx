@@ -5,27 +5,28 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
-// Reduzido para apenas 3 projetos principais na página inicial
+// Projetos em destaque com as imagens fornecidas
 const featuredProjects = [
   {
-    id: "Dasboard Financeira",
+    id: "dashboard-adag",
     title: "Dashboard ADAG",
     category: "Web Design",
-    image: "https://iili.io/3ucdi0J.png",
+    image: "/images/dashboard-adag.png",
     description: "Dashboard interativo para visualização de dados financeiros.",
   },
   {
-    id: "Web Site",
+    id: "website-academia",
     title: "Web Site Academia",
     category: "Web Design",
-    image: "https://iili.io/3uchkba.png",
-    description: "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
+    image: "/images/website-academia.png",
+    description:
+      "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
   },
   {
-    id: "Make Money APP",
+    id: "hiven-money-app",
     title: "Hiven Money APP",
     category: "Apps Mobile",
-    image: "https://iili.io/3u0dxAQ.png",
+    image: "/images/hiven-money-app.png",
     description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
   },
 ]

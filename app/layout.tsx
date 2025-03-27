@@ -3,13 +3,13 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from "sonner"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Lumen Digital - Agência Digital Inovadora",
   description: "Iluminando experiências digitais através de soluções inovadoras e excelência criativa.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -22,12 +22,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
+          <Toaster position="top-right" />
         </ThemeProvider>
       </body>
     </html>
   )
 }
 
-
-
-import './globals.css'

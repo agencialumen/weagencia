@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react"
 import { motion, useAnimation, useInView } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function PromoBanner() {
   const controls = useAnimation()
@@ -60,10 +61,12 @@ export default function PromoBanner() {
                     Nosso pacote premium com recursos ilimitados para impulsionar sua presença digital. Inclui
                     desenvolvimento, design e suporte contínuo.
                   </p>
-                  <Button className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none rounded-full shadow-[0_0_15px_rgba(168,85,247,0.5)] group">
-                    Saiba mais
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
+                  <Link href="/planos">
+                    <Button className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none rounded-full shadow-[0_0_15px_rgba(168,85,247,0.5)] group">
+                      Saiba mais
+                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Button>
+                  </Link>
                 </div>
               </motion.div>
 

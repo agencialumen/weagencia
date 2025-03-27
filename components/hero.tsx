@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import * as THREE from "three"
+import Link from "next/link"
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -157,16 +158,20 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none rounded-full px-8 py-6 shadow-[0_0_20px_rgba(168,85,247,0.5)] text-lg">
-              Comece Agora
-            </Button>
-            <Button
-              variant="outline"
-              className="border-purple-500 text-white hover:bg-purple-900/20 rounded-full px-8 py-6 text-lg group"
-            >
-              Nosso Trabalho
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <Link href="/planos">
+              <Button className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none rounded-full px-8 py-6 shadow-[0_0_20px_rgba(168,85,247,0.5)] text-lg">
+                Comece Agora
+              </Button>
+            </Link>
+            <Link href="/projetos">
+              <Button
+                variant="outline"
+                className="border-purple-500 text-white hover:bg-purple-900/20 rounded-full px-8 py-6 text-lg group"
+              >
+                Nosso Trabalho
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </div>

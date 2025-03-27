@@ -11,14 +11,14 @@ const featuredProjects = [
     id: "dashboard-adag",
     title: "Dashboard ADAG",
     category: "Web Design",
-    image: "/images/dashboard-adag.png",
+    image: "public/dashboard-adag.png",
     description: "Dashboard interativo para visualização de dados financeiros.",
   },
   {
     id: "website-academia",
     title: "Web Site Academia",
     category: "Web Design",
-    image: "/images/website-academia.png",
+    image: "public/website-academia.png",
     description:
       "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
   },
@@ -26,7 +26,7 @@ const featuredProjects = [
     id: "hiven-money-app",
     title: "Hiven Money APP",
     category: "Apps Mobile",
-    image: "/images/hiven-money-app.png",
+    image: "public/hiven-money-app.png",
     description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
   },
 ]

@@ -23,6 +23,7 @@ const projectsData = [
     gallery: [
       "https://iili.io/3ucdi0J.png",
       "https://iili.io/3uGkUcg.png",
+      "https://iili.io/3uMjVGn.png",
       // Adicione mais URLs de imagens aqui conforme necessário
     ],
   },

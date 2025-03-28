@@ -11,7 +11,7 @@ const projectsData = [
     id: "dashboard-adag",
     title: "Dashboard ADAG",
     category: "Web Design",
-    image: "/images/dashboard-adag.png",
+    image: "https://iili.io/3ucdi0J.png",
     description: "Dashboard interativo para visualização de dados financeiros.",
     fullDescription:
       "Desenvolvemos um dashboard financeiro interativo que permite aos usuários visualizar e analisar dados complexos de forma intuitiva. O sistema apresenta gráficos dinâmicos, relatórios personalizáveis e alertas inteligentes para auxiliar na tomada de decisões financeiras.",
@@ -19,13 +19,17 @@ const projectsData = [
     client: "ADAG Finanças",
     date: "Março 2023",
     link: "https://exemplo.com/dashboard",
-    gallery: ["/images/dashboard-adag.png", "/images/dashboard-adag.png", "/images/dashboard-adag.png"],
+    // Aqui você pode adicionar mais imagens para a galeria de cada projeto
+    gallery: [
+      "https://iili.io/3ucdi0J.png",
+      // Adicione mais URLs de imagens aqui conforme necessário
+    ],
   },
   {
     id: "website-academia",
     title: "Web Site Academia",
     category: "Web Design",
-    image: "/images/website-academia.png",
+    image: "https://iili.io/3uchkba.png",
     description:
       "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
     fullDescription:
@@ -34,13 +38,17 @@ const projectsData = [
     client: "Academia Fitness",
     date: "Janeiro 2023",
     link: "https://exemplo.com/academia",
-    gallery: ["/images/website-academia.png", "/images/website-academia.png", "/images/website-academia.png"],
+    // Aqui você pode adicionar mais imagens para a galeria de cada projeto
+    gallery: [
+      "https://iili.io/3uchkba.png",
+      // Adicione mais URLs de imagens aqui conforme necessário
+    ],
   },
   {
     id: "hiven-money-app",
     title: "Hiven Money APP",
     category: "Apps Mobile",
-    image: "/images/hiven-money-app.png",
+    image: "https://iili.io/3u0dxAQ.png",
     description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
     fullDescription:
       "Desenvolvemos um aplicativo móvel inovador que ajuda os usuários a automatizar seus investimentos e maximizar seus ganhos. O app utiliza algoritmos avançados para analisar o mercado e sugerir as melhores oportunidades de investimento, fazendo o dinheiro 'trabalhar como uma abelha'.",
@@ -48,7 +56,11 @@ const projectsData = [
     client: "Hiven Finance",
     date: "Maio 2023",
     link: "https://exemplo.com/hiven",
-    gallery: ["/images/hiven-money-app.png", "/images/hiven-money-app.png", "/images/hiven-money-app.png"],
+    // Aqui você pode adicionar mais imagens para a galeria de cada projeto
+    gallery: [
+      "https://iili.io/3u0dxAQ.png",
+      // Adicione mais URLs de imagens aqui conforme necessário
+    ],
   },
 ]
 

@@ -11,14 +11,14 @@ const featuredProjects = [
     id: "dashboard-adag",
     title: "Dashboard ADAG",
     category: "Web Design",
-    image: "/imagens/dashboard-adag.png",
+    image: "https://iili.io/3ucdi0J.png",
     description: "Dashboard interativo para visualização de dados financeiros.",
   },
   {
     id: "website-academia",
     title: "Web Site Academia",
     category: "Web Design",
-    image: "/imagens/website-academia.png",
+    image: "https://iili.io/3uchkba.png",
     description:
       "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
   },
@@ -26,7 +26,7 @@ const featuredProjects = [
     id: "hiven-money-app",
     title: "Hiven Money APP",
     category: "Apps Mobile",
-    image: "/imagens/hiven-money-app.png",
+    image: "https://iili.io/3u0dxAQ.png",
     description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
   },
 ]

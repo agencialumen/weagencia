@@ -38,7 +38,7 @@ const projectsData = [
       "Criamos um website completo para academia com sistema de agendamento online, área de membros, integração com redes sociais e design responsivo. O site permite que os clientes visualizem horários de aulas, façam agendamentos e acompanhem seu progresso.",
     technologies: ["React", "Next.js", "MongoDB", "Stripe API"],
     client: "Academia Fitness",
-    date: "Janeiro 2023",
+    date: "Janeiro 2025",
     link: "https://exemplo.com/academia",
     // Aqui você pode adicionar mais imagens para a galeria de cada projeto
     gallery: [
@@ -56,7 +56,7 @@ const projectsData = [
       "Desenvolvemos um aplicativo móvel inovador que ajuda os usuários a automatizar seus investimentos e maximizar seus ganhos. O app utiliza algoritmos avançados para analisar o mercado e sugerir as melhores oportunidades de investimento, fazendo o dinheiro 'trabalhar como uma abelha'.",
     technologies: ["React Native", "GraphQL", "MongoDB", "Firebase"],
     client: "Hiven Finance",
-    date: "Maio 2023",
+    date: "Maio 2025",
     link: "https://exemplo.com/hiven",
     // Aqui você pode adicionar mais imagens para a galeria de cada projeto
     gallery: [

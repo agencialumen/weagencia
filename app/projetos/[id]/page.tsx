@@ -22,6 +22,7 @@ const projectsData = [
     // Aqui você pode adicionar mais imagens para a galeria de cada projeto
     gallery: [
       "https://iili.io/3ucdi0J.png",
+      "https://iili.io/3ucdi0J.png",
       // Adicione mais URLs de imagens aqui conforme necessário
     ],
   },

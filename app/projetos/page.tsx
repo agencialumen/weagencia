@@ -4,42 +4,29 @@ import { ArrowLeft, ArrowRight } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 
-// Lista completa de projetos
+// Lista completa de projetos com as imagens fornecidas
 const allProjects = [
   {
-    id: "ecommerce",
-    title: "Plataforma E-commerce",
+    id: "dashboard-adag",
+    title: "Dashboard ADAG",
     category: "Web Design",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Uma solução moderna de e-commerce com experiência de checkout perfeita.",
-  },
-  {
-    id: "dashboard",
-    title: "Dashboard Financeiro",
-    category: "Web Design",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/dashboard-adag.png",
     description: "Dashboard interativo para visualização de dados financeiros.",
   },
   {
-    id: "travel-app",
-    title: "App Companheiro de Viagem",
+    id: "website-academia",
+    title: "Web Site Academia",
+    category: "Web Design",
+    image: "/images/website-academia.png",
+    description:
+      "Website responsivo para academias, com informações, agendamentos online e integração com redes sociais.",
+  },
+  {
+    id: "hiven-money-app",
+    title: "Hiven Money APP",
     category: "Apps Mobile",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Aplicativo móvel para viajantes planejarem e acompanharem suas jornadas.",
-  },
-  {
-    id: "tech-branding",
-    title: "Branding para Startup de Tecnologia",
-    category: "Branding",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Identidade de marca completa para uma startup de tecnologia inovadora.",
-  },
-  {
-    id: "marketing-campaign",
-    title: "Campanha de Lançamento de Produto",
-    category: "Marketing",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "Campanha de marketing integrada para o lançamento de um novo produto.",
+    image: "/images/hiven-money-app.png",
+    description: "App que gera ganhos automatizados e faz o dinheiro 'trabalhar como uma abelha'.",
   },
 ]
 

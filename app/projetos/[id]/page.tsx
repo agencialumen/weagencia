@@ -17,8 +17,8 @@ const projectsData = [
       "Desenvolvemos um dashboard financeiro interativo que permite aos usuários visualizar e analisar dados complexos de forma intuitiva. O sistema apresenta gráficos dinâmicos, relatórios personalizáveis e alertas inteligentes para auxiliar na tomada de decisões financeiras.",
     technologies: ["Vue.js", "D3.js", "Firebase", "TailwindCSS"],
     client: "ADAG Finanças",
-    date: "Março 2023",
-    link: "https://exemplo.com/dashboard",
+    date: "Março 2025",
+    link: "https://adag.netlify.app/",
     // Aqui você pode adicionar mais imagens para a galeria de cada projeto
     gallery: [
       "https://iili.io/3ucdi0J.png",

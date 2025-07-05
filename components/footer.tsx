@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center">
           <Link href="/" className="inline-block mb-4">
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-fuchsia-500 text-transparent bg-clip-text">
-              Lumen Digital
+              Lokaly Hub
             </span>
           </Link>
 
@@ -59,7 +59,7 @@ export default function Footer() {
 
           <div className="border-t border-purple-900/30 pt-6 w-full">
             <p className="text-gray-400 text-sm text-center">
-              &copy; {currentYear} Lumen Digital. Todos os direitos reservados.
+              &copy; {currentYear} Lokaly Hub. Todos os direitos reservados.
             </p>
           </div>
         </div>

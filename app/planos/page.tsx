@@ -38,7 +38,7 @@ const predefinedPlans = [
       "Suporte por Email",
     ],
     popular: false,
-    whatsappMessage: "Olá! Estou interessado no plano Starter da Lumen Digital. Poderia me fornecer mais informações?",
+    whatsappMessage: "Olá! Estou interessado no plano Starter da Lokaly Hub. Poderia me fornecer mais informações?",
   },
   {
     id: "pro",
@@ -57,7 +57,7 @@ const predefinedPlans = [
     ],
     popular: true,
     whatsappMessage:
-      "Olá! Estou interessado no plano Professional da Lumen Digital. Poderia me fornecer mais informações?",
+      "Olá! Estou interessado no plano Professional da Lokaly Hub. Poderia me fornecer mais informações?",
   },
   {
     id: "infinity",
@@ -77,7 +77,7 @@ const predefinedPlans = [
       "Suporte 24/7 Dedicado",
     ],
     popular: false,
-    whatsappMessage: "Olá! Estou interessado no plano Infinity da Lumen Digital. Poderia me fornecer mais informações?",
+    whatsappMessage: "Olá! Estou interessado no plano Infinity da Lokaly Hub. Poderia me fornecer mais informações?",
   },
 ]
 
@@ -114,7 +114,7 @@ export default function PlanosPage() {
       })
       .join(", ")
 
-    return `Olá! Estou interessado em um plano personalizado da Lumen Digital com os seguintes serviços: ${selectedServiceNames}. Poderia me fornecer mais informações?`
+    return `Olá! Estou interessado em um plano personalizado da Lokaly Hub com os seguintes serviços: ${selectedServiceNames}. Poderia me fornecer mais informações?`
   }
 
   // Codificar a mensagem para URL

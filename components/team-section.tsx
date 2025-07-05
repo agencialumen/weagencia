@@ -55,7 +55,7 @@ export default function TeamSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-gray-300 max-w-2xl mx-auto"
           >
-            Conheça os talentos por trás da Lumen Digital
+            Conheça os talentos por trás da Lokaly Hub
           </motion.p>
         </div>
 

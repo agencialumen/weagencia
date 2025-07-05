@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-fuchsia-500 text-transparent bg-clip-text">
-                Lumen Digital
+                Lokaly Hub
               </span>
             </Link>
           </div>

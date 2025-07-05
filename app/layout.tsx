@@ -8,7 +8,7 @@ import { Toaster } from "sonner"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Lumen - Agência Digital",
+  title: "Lokaly Hub",
   description: "Iluminando experiências digitais através de soluções inovadoras e excelência criativa.",
 }
 

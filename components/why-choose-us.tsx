@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
               transition={{ duration: 0.7 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-fuchsia-500 text-transparent bg-clip-text">
-                Por que escolher a Lumen Digital?
+                Por que escolher a Lokaly Hub?
               </h2>
               <p className="text-gray-300 mb-8">
                 Transformamos sua visão digital em realidade com soluções inovadoras que cativam o público e geram

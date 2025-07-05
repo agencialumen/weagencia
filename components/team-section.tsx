@@ -7,59 +7,27 @@ import { useRef } from "react"
 const teamMembers = [
   {
     name: "Guilherme Vinicius",
-    role: "CEO & Fundador",
+    role: "CEO",
     image: "https://iili.io/3uYmYqQ.jpg",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
       github: "#",
-      email: "ana@lumendigital.com.br",
+      email: "viniciusscriptofc@gmail.com",
     },
   },
   {
-    name: "Lucas Ramos",
-    role: "E-commerce",
-    image: "https://iili.io/3uYb3PV.png",
+    name: "Alex Santana",
+    role: "CO-Fundador",
+    image: "https://iili.io/FcSWD42.jpg",
     socialLinks: {
       linkedin: "#",
       twitter: "#",
       github: "#",
-      email: "rafael@lumendigital.com.br",
+      email: "alexssandrofarias49@gmail.com",
     },
   },
-  {
-    name: "Gabriel França",
-    role: "Conector",
-    image: "https://iili.io/3uaqWj2.md.png",
-    socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
-      email: "juliana@lumendigital.com.br",
-    },
-  },
-  {
-    name: "Loughan Perpetuo",
-    role: "Líder de Marketing",
-    image: "https://iili.io/3uacXJR.jpg",
-    socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
-      email: "marcos@lumendigital.com.br",
-    },
-  },
-  {
-    name: "Gabriel Santos",
-    role: "Desenvolvedor Frontend",
-    image: "https://iili.io/3uahOve.png",
-    socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
-      email: "carla@lumendigital.com.br",
-    },
-  },
+
 ]
 
 export default function TeamSection() {
